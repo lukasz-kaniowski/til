@@ -2,7 +2,7 @@
 
 ## Table with one column
 
-```
+```groovy
 @Unroll
 def '#expressionEqual2 should equal 2'() {
     expect:
@@ -16,14 +16,14 @@ def '#expressionEqual2 should equal 2'() {
 
 generated scenario titles:
 
-```
+```bash
 2 * 2 / 2 should equal 2
 10 - 8 should equal 2
 ```
 
 ## Unroll with custom text
 
-```
+```groovy
 @Unroll
 def '#expression #unrollDescription'() {
 
@@ -40,7 +40,7 @@ def '#expression #unrollDescription'() {
 
 generated scenario titles:
 
-```
+```bash
 true == true should work
 true == false should not work
 ```
