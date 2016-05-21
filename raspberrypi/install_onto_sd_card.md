@@ -35,3 +35,4 @@
     
     Start it ```sudo service watchdog start```
 14. Update system ```sudo apt-get update && sudo apt-get -y upgrade```
+15. Configure timezone using `sudo raspi-config`
