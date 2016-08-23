@@ -23,9 +23,7 @@ resource "aws_kms_key" "cloudtrail" {
       "Sid": "Enable IAM User Permissions",
       "Effect": "Allow",
       "Principal": {
-        "AWS": [
-          "arn:aws:iam::${var.aws_account_no}:root"
-        ]
+        "AWS": "arn:aws:iam::${var.aws_account_no}:root"
       },
       "Action": "kms:*",
       "Resource": "*"
