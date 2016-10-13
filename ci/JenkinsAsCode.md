@@ -7,3 +7,4 @@
 # Resources
 
 * [https://dzone.com/refcardz/continuous-delivery-with-jenkins-workflow]()
+* [https://engineering.riotgames.com/news/docker-jenkins-data-persists]()
